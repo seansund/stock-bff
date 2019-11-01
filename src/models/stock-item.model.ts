@@ -1,5 +1,6 @@
 
 export class StockItemModel {
+  id: string;
   name: string;
   description: string;
   stock: number;

@@ -7,6 +7,7 @@ export class StockItemsService implements StockItemsApi {
   async listStockItems(): Promise<StockItemModel[]> {
     return [
       {
+        id: "1",
         name: "Lin",
         description: "123 Main Street",
         stock: 10,
@@ -15,6 +16,7 @@ export class StockItemsService implements StockItemsApi {
         manufacturer: "United States"
       },
       {
+        id: "2",
         name: "Mak",
         description: "45 2nd Street",
         stock: 20,
@@ -23,6 +25,7 @@ export class StockItemsService implements StockItemsApi {
         manufacturer: "United States"
       },
       {
+        id: "3",
         name: "Joe",
         description: "40 Down Street",
         stock: 30,
